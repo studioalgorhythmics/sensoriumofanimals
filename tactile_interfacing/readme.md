@@ -1,16 +1,16 @@
 #Read me 
-A project by Akitoshi Honda in collaboration with Studio ALgorhythmics.
+A project by Akitoshi Honda in collaboration with Studio Algorhythmics.
 
 ##Introduction
-Python 2.x code for beagle bone green to do motor control with Adafruit I2C multiplexer TCA9548 and DRV2605 motor driver.
+Python 2.x code for [beagle bone green](http://wiki.seeed.cc/BeagleBone_Green_Wireless/) to do motor control with [Adafruit I2C multiplexer TCA9548](https://learn.adafruit.com/adafruit-tca9548a-1-to-8-i2c-multiplexer-breakout/overview) and [DRV2605 motor driver](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/overview).
 
 
 ##Requirements
 ###Software (not preinstalled)
 * Python smbus
 	* To install do following command in terminal (need internet connection)
-	* sudo apt-get update
-	* sudo apt-get install python-smbus
+	* `sudo apt-get update`
+	* `sudo apt-get install python-smbus`
 * Pre installed on beagle bone green
 	* Python 2.x
 	* Flask
@@ -23,11 +23,11 @@ Python 2.x code for beagle bone green to do motor control with Adafruit I2C mult
 
 ##How to use
 
-1. copy the folder "RabbitMot" to beablebone using Cloud9
+1. Copy the folder "RabbitMot" to [beablebone](http://beagleboard.org/getting-started) using Cloud9
 2. Build hardware on breadboard 
 	* see rabbit_moto.fzz and rabbit_moto_bb.pdf in this folder 
-3. run "Basic multi2.py" in the folder "RabbitMot" in Cloud9/terminal 
-	# check usb ports and check address with i2cdetect -r -y 2 (in cloud9/ terminal)
+3. Run "Basic multi2.py" in the folder "RabbitMot" in Cloud9/terminal 
+	# check usb ports and check address with `i2cdetect -r -y 2` (in cloud9/ terminal)
 
 
 ###RabbitWebUI
