@@ -1,19 +1,18 @@
 #Read me 
-ver 160125
-Akitoshi Honda
+ver 160125 by Akitoshi Honda
 
 ##Introduction
 Python 2.x code with beagle bone green for motor control with Adafruit I2C multiplexer TCA9548 and DRV2605 motor driver
 
 ##Requirements
 ###Software (not preinstalled)
--Python smbus
-To install do following command in terminal (need internet connection)
-	sudo apt-get update
-	sudo apt-get install python-smbus
-(Pre installed on beagle bone green)
--Python 2.x
--Flask
+* Python smbus
+	* To install do following command in terminal (need internet connection)
+	* sudo apt-get update
+	*sudo apt-get install python-smbus
+*(Pre installed on beagle bone green)
+	* Python 2.x
+	* Flask
 
 ###Hardware
 Beagle bone green
