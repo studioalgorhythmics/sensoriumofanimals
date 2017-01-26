@@ -1,13 +1,12 @@
-_/_/_/_/Read me_/_/_/_/
+Read me 
 ver 160125
 Akitoshi Honda
 
-_/_/Intriduction_/_/
+Introduction
 Python 2.x code with beagle bone green for motor control with Adafruit I2C multiplexer TCA9548 and DRV2605 motor driver
 
-_/_/Requirement_/_/
-_/_/_/Software_/_/_/
-(not preinstalled)
+Requirements
+Software (not preinstalled)
 -Python smbus
 To install do following command in terminal (need internet connection)
 	sudo apt-get update
@@ -16,13 +15,13 @@ To install do following command in terminal (need internet connection)
 -Python 2.x
 -Flask
 
-_/_/_/Hardware_/_/_/
+Hardware
 Beagle bone green
 Adafruit TCA9548
 Adafruit DRV2605
 Proper actuator(motor)
 
-_/_/File directory_/_/
+File directory
 RabbitMot
 	├── Adafruit_DRV2605.py		prerquired. Python library for DRV2605
 	├── Adafruit_I2C_mod.py		prerquired. Python library for I2C
@@ -31,7 +30,7 @@ RabbitMot
 	└── templates
     		└── index.html		html template for WebUI
 
-_/_/how to use_/_/
+How to use
 
 1. copy RabbitMot to beablebone
 2. Build hardware on breadboard 
