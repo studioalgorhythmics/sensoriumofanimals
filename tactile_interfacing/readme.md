@@ -2,7 +2,8 @@
 ver 160125 by Akitoshi Honda
 
 ##Introduction
-Python 2.x code with beagle bone green for motor control with Adafruit I2C multiplexer TCA9548 and DRV2605 motor driver
+Python 2.x code for beagle bone green to do motor control with Adafruit I2C multiplexer TCA9548 and DRV2605 motor driver.
+
 
 ##Requirements
 ###Software (not preinstalled)
@@ -22,12 +23,12 @@ Python 2.x code with beagle bone green for motor control with Adafruit I2C multi
 
 ###File directory
 RabbitMot
-	*├── Adafruit_DRV2605.py		prerquired. Python library for DRV2605
-	*├── Adafruit_I2C_mod.py		prerquired. Python library for I2C
-	*├── basic_multi2.py			basic motor control without WebUI
-	*├── rabbit_webui.py			basic motor control with WebUI
-	*└── templates
-    		*└── index.html		html template for WebUI
+* Adafruit_DRV2605.py (prerequired Python library for DRV2605)
+* Adafruit_I2C_mod.py (prerequired Python library for I2C)
+* basic_multi2.py (basic motor control without WebUI)
+* rabbit_webui.py (basic motor control with WebUI)
+* templates
+	* index.html (html template for WebUI)
 
 ##How to use
 
