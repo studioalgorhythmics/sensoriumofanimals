@@ -1,5 +1,5 @@
 #Read me 
-ver 160125 by Akitoshi Honda
+A project by Akitoshi Honda in collaboration with Studio ALgorhythmics.
 
 ##Introduction
 Python 2.x code for beagle bone green to do motor control with Adafruit I2C multiplexer TCA9548 and DRV2605 motor driver.
@@ -21,20 +21,13 @@ Python 2.x code for beagle bone green to do motor control with Adafruit I2C mult
 - Adafruit DRV2605
 - Proper actuator(motor)
 
-###File directory
-RabbitMot
-* Adafruit_DRV2605.py (prerequired Python library for DRV2605)
-* Adafruit_I2C_mod.py (prerequired Python library for I2C)
-* basic_multi2.py (basic motor control without WebUI)
-* rabbit_webui.py (basic motor control with WebUI)
-* templates
-	* index.html (html template for WebUI)
-
 ##How to use
 
 1. copy RabbitMot to beablebone
 2. Build hardware on breadboard 
-3. run Basic multi2.py in cloud9/terminal (check usb ports and check address with i2cdetect -r -y 2 (in cloud9/ terminal)
+	* see rabbit_moto.fzz and rabbit_moto_bb.pdf in this folder 
+3. run Basic multi2.py in cloud9/terminal 
+	# check usb ports and check address with i2cdetect -r -y 2 (in cloud9/ terminal)
 
 
 ###RabbitWebUI
