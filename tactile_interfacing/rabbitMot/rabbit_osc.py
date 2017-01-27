@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##################################################
 '''
-control multiple DRV2605 using I2C multiplexar TCA9548
+control multiple DRV2605 using I2C multiplexer TCA9548
 control via OSCseq www.oscseq.com
 '''
 ##################################################
