@@ -25,7 +25,7 @@ Python 2.x code for [beagle bone green](http://wiki.seeed.cc/BeagleBone_Green_Wi
 
 ##How to use
 
-1. Copy the folder "RabbitMot" to [beablebone](http://beagleboard.org/getting-started) using Cloud9
+1. Copy the folder "RabbitMot" to [beaglebone](http://beagleboard.org/getting-started) using Cloud9
 2. Build hardware on breadboard 
 	* see rabbit_moto.fzz and rabbit_moto_bb.pdf in this folder 
 3. Run python scripts in the folder "RabbitMot" in Cloud9/terminal 
@@ -49,7 +49,7 @@ Python 2.x code for [beagle bone green](http://wiki.seeed.cc/BeagleBone_Green_Wi
 - To stop, set start to 0 and press send.
 
 ###rabbit_osc.py
-- requires python package [simple osc](https://github.com/enrike/simpleOSC).
+- requires python package [pyosc](https://pypi.python.org/pypi/pyOSC) install on the [beaglebone](http://beagleboard.org/getting-started) using Cloud9/terminal with 'sudo pip install pyosc'
 - simple [osc/open sound control](https://en.wikipedia.org/wiki/Open_Sound_Control) receiver used in conjuction with a osc sender. We used [OSCseq](http://oscseq.com/manual/) for testing. 
 
 
