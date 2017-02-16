@@ -21,12 +21,16 @@ airodump-ng -o csv -w dump mon0
 ~~~~
 This should create a dumpXX.csv file, be sure to do it in the __same folder__ which is being used by the python script.
 
-##Python and OSC
+##Python & OSC
 
 Install python 3, pip, python-osc
-~~~~
+```
 sudo apt-get install python3 python3-pip
 sudo pip3 install python-osc
-~~~~
+```
+
+##Screen
+You should use `screen` to run airmon-ng and .py script at the same time and see what's going on.
+See how to use it [here](http://aperiodic.net/screen/quick_reference).
 
 ##p5.js
