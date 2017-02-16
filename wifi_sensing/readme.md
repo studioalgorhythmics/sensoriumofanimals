@@ -19,8 +19,14 @@ Start scanning WiFi stations and clients (-o writes only CSV file)
 ~~~~
 airodump-ng -o csv -w dump mon0
 ~~~~
-This should create a dumpXX.csv file, be sure to do it in the same folder which is being used by the python script.
+This should create a dumpXX.csv file, be sure to do it in the __same folder__ which is being used by the python script.
 
-##OSC
+##Python and OSC
+
+Install python 3, pip, python-osc
+~~~~
+sudo apt-get install python3 python3-pip
+sudo pip3 install python-osc
+~~~~
 
 ##p5.js
