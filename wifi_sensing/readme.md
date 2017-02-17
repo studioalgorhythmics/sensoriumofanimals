@@ -15,7 +15,7 @@ sudo apt-get update
 sudo apt-get install aircrack-ng
 ```
 
-Put your WiFi interface into monitor mode (`wlan1` is your interface identifier, might be different)
+Put your WiFi interface into monitor mode (`wlan1` is your interface identifier, might be different, use `ifconfig` if not sure)
 ```
 sudo airmon-ng start wlan1
 ```
@@ -51,10 +51,11 @@ Install scapy
 ```
 pip3 install scapy-python3
 ```
-The list_scapy.py script takes charge of putting your interface in monitor mode (wlan1 by default, change it if different), then it hops on 2.4GHz channels and sniffs 802.11 packets. Requires `sudo` to put interface in monitor mode and sniff packets.
+The list_scapy.py script takes charge of putting your interface in monitor mode (wlan1 by default, might be different, use `ifconfig` if not sure), then it hops on 2.4GHz channels and sniffs 802.11 packets. Requires `sudo` to put interface in monitor mode and sniff packets.
 ```
 sudo python3 list_scapy.py
 ```
+So far list_scapy.py prints the data in the console, should send them through OSC in the future.
 
 ##Part 3: Visualize with p5.js
 Coming soon.
